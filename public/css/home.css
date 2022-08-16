@@ -1,0 +1,45 @@
+
+.textarea form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    
+}
+.textarea form textarea{
+    margin-top: 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 77px;
+    left: 475px;
+    border: black dashed 5px;
+    border-radius: 50px;
+    background-color:#00000057;
+    padding: 0px;
+}
+.container p{
+    font-size: 25px;
+    font-family: 'Knewave', cursive;
+    color: burlywood;
+}
+
+#btn{
+    background-color: gray;
+    height: 104px;
+    margin: 15px 0px;
+    border-radius: 25px;
+    font-family: 'Knewave', cursive;
+    font-size: 25px;
+    color: burlywood;
+}

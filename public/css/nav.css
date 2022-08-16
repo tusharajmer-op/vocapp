@@ -1,0 +1,48 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    
+    margin: -8px -8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#00000057;
+
+}
+.navi ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+    
+    
+}
+.navi li{
+    margin-left: -10%;
+    margin-right: 27px;
+    font-family: 'Knewave', cursive;
+    
+
+}
+.navi a{
+    text-decoration: none;
+    font-size: 20px;
+    color:burlywood;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 31px;
+    margin-left: 20px;
+    margin-top: -14px;
+}
+
+#back{
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -100;
+    margin: 0px -8px;
+}

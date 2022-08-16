@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 154px;
+    left: 32vw;
+    padding: 2px;
+
+}
+.container input{
+    height: 40px;
+}
+#word{
+    width: 380px;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+#btn{
+    height: 42px;
+    width: 150px;
+    border: none;
+    background-color: lightblue;
+    font-size: 20px;
+    color: black;
+    cursor:pointer;
+}
+.container2{
+    
+    position: absolute;
+    left: 619px;
+    top: 243px;
+    width: 509px;
+    display: none;
+    font-family: 'Knewave', cursive;
+    text-align: center;
+    color: #f20975;
+    background-color: #808080ad;
+    font-size: 25px;
+    font-weight: 400;
+    box-shadow: 16px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
